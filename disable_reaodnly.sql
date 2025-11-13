@@ -1,0 +1,14 @@
+BEGIN TRANSACTION;
+DROP TRIGGER readonly_md5_insert;
+DROP TRIGGER readonly_md5_update;
+DROP TRIGGER readonly_md5_delete;
+DROP TRIGGER readonly_sha1_insert;
+DROP TRIGGER readonly_sha1_update;
+DROP TRIGGER readonly_sha1_delete;
+DROP TRIGGER readonly_sha256_insert;
+DROP TRIGGER readonly_sha256_update;
+DROP TRIGGER readonly_sha256_delete;
+COMMIT;
+PRAGMA optimize;
+VACUUM;
+PRAGMA quick_check;
