@@ -8,7 +8,7 @@
 
 **In Version 1.0.0**
 
-**Because The signatures.db Are Over 200 MB i used rar to Make it Multi Part!!!**
+**Because The signatures.db Are Over 100 MB i used rar to Make it Multi Part!!!**
 
 ## Creator
 
